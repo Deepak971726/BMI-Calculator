@@ -1,9 +1,17 @@
 .container {
-    width: 575px;
-    height: 825px;
-    background-color: #797978;
-    padding-left: 30px;
+    display: flex;
+    justify-content: center;
 }
+
+body {
+    background-color: #797978;
+    /* align-items: center; */
+}
+
+
+/* body {
+    background-color: #212121;
+} */
 
 #height,
 #weight {
